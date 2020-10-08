@@ -28,7 +28,7 @@ void setup() {
 }
 
 void draw() {
-  if (counter >= 1) {
+  if (counter >= 15) {
     finishedSeconds = seconds;
     timer = "Timer: " + finishedSeconds + " Seconds";
     victoryMessage();
